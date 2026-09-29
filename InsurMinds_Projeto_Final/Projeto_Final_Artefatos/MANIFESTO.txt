@@ -1,0 +1,12 @@
+INSURMINDS — PROJETO FINAL
+Autoria integral: Curié Edge
+
+Entregáveis:
+- InsurMinds_Projeto_Final.mp4 — vídeo demonstrativo narrado, até 5 minutos
+- InsurMinds_Projeto_Final.pdf — exportação do pitch deck
+- pitch_deck_html/ — fonte HTML editável dos 8 slides
+- InsurMinds_Relatorio_Tecnico.pdf — relatório técnico
+- relatorio_tecnico.md — fonte do relatório
+- Apolice_Norte_2026.pdf e Apolice_Sul_2026.pdf — dados sintéticos
+- logo e frames auxiliares
+- NOTA_ENTREGA.md — transparência sobre a limitação de PPTX nativo da sessão

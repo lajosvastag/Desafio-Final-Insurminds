@@ -1,0 +1,87 @@
+{
+  "duration": 101.36,
+  "language": "por",
+  "segments": [
+    {
+      "start": 0.34,
+      "end": 9.22,
+      "text": "Este é o InsurMinds, uma plataforma inteligente para análise e comparação de apólices de seguro D\u0026O, criada pela CuriéED."
+    },
+    {
+      "start": 9.22,
+      "end": 18.8,
+      "text": "O problema é conhecido: documentos extensos e jurídicos exigem horas de leitura manual e diferenças importantes podem passar despercebidas."
+    },
+    {
+      "start": 18.8,
+      "end": 22.96,
+      "text": "O fluxo começa com o recebimento de PDFs ou imagens."
+    },
+    {
+      "start": 22.96,
+      "end": 30.06,
+      "text": "O sistema extrai a camada de texto com PyMuPDF e pode usar OCR Tesseract quando necessário."
+    },
+    {
+      "start": 30.06,
+      "end": 40.2,
+      "text": "Em seguida, um agente de estruturação identifica seguradora, segurado, vigência, limites, franquias, coberturas,"
+    },
+    {
+      "start": 40.2,
+      "end": 41.8,
+      "text": "exclusões e alertas."
+    },
+    {
+      "start": 41.8,
+      "end": 48.92,
+      "text": "Quando uma chave de API está configurada, a aplicação usa IA generativa com saída JSON estruturada."
+    },
+    {
+      "start": 48.92,
+      "end": 55,
+      "text": "Sem credenciais, o fallback determinístico mantém a demonstração reproduzível e auditável."
+    },
+    {
+      "start": 55,
+      "end": 59.34,
+      "text": "Aqui vemos duas apólices sintéticas processadas lado a lado."
+    },
+    {
+      "start": 59.34,
+      "end": 65.019,
+      "text": "A apólice Norte tem limite de 10 milhões de reais e retenção de 250 mil."
+    },
+    {
+      "start": 65.019,
+      "end": 72.74,
+      "text": "A apólice Sul tem limite maior, de 15 milhões, mas retenção de 500 mil e mais exclusões identificadas."
+    },
+    {
+      "start": 72.74,
+      "end": 82.98,
+      "text": "A comparação transforma a leitura em uma visão executiva: maior limite, menor retenção, coberturas presentes, exclusões e pontos que exigem"
+    },
+    {
+      "start": 82.98,
+      "end": 83.78,
+      "text": "revisão humana."
+    },
+    {
+      "start": 83.78,
+      "end": 91.56,
+      "text": "O MVP persiste resultados em SQLite, oferece uma interface em português e está documentado para instalação local."
+    },
+    {
+      "start": 91.56,
+      "end": 95.86,
+      "text": "InsurMinds: compare proteção, encontre as lacunas."
+    },
+    {
+      "start": 95.86,
+      "end": 101.08,
+      "text": "Esta análise apoia a decisão, mas não substitui a leitura jurídica da apólice."
+    }
+  ],
+  "full_text": "Este é o InsurMinds, uma plataforma inteligente para análise e comparação de apólices de seguro D\u0026O, criada pela CuriéED. O problema é conhecido: documentos extensos e jurídicos exigem horas de leitura manual e diferenças importantes podem passar despercebidas. O fluxo começa com o recebimento de PDFs ou imagens. O sistema extrai a camada de texto com PyMuPDF e pode usar OCR Tesseract quando necessário. Em seguida, um agente de estruturação identifica seguradora, segurado, vigência, limites, franquias, coberturas, exclusões e alertas. Quando uma chave de API está configurada, a aplicação usa IA generativa com saída JSON estruturada. Sem credenciais, o fallback determinístico mantém a demonstração reproduzível e auditável. Aqui vemos duas apólices sintéticas processadas lado a lado. A apólice Norte tem limite de 10 milhões de reais e retenção de 250 mil. A apólice Sul tem limite maior, de 15 milhões, mas retenção de 500 mil e mais exclusões identificadas. A comparação transforma a leitura em uma visão executiva: maior limite, menor retenção, coberturas presentes, exclusões e pontos que exigem revisão humana. O MVP persiste resultados em SQLite, oferece uma interface em português e está documentado para instalação local. InsurMinds: compare proteção, encontre as lacunas. Esta análise apoia a decisão, mas não substitui a leitura jurídica da apólice."
+}

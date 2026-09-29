@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    .slide-container { width: 1280px; min-height: 720px; background: #F9F8F4; display: flex; flex-direction: column; padding: 48px; font-family: 'Inter', sans-serif; position: relative; }
+    h2 { font-family: 'Playfair Display', serif; color: #172A3A; }
+    .accent { color: #D49A31; }
+    .motif { position: absolute; bottom: 48px; left: 0; width: 100%; height: 6px; }
+    .line-gold { height: 2px; background: #D49A31; width: 100%; }
+    .footer { position: absolute; bottom: 20px; left: 48px; right: 48px; display: flex; justify-content: space-between; color: #172A3A; font-size: 14px; opacity: 0.6; }
+    .step-box { border: 1px solid #172A3A; flex: 1; padding: 32px; background: #F0EFE9; display: flex; flex-direction: column; align-items: flex-start; }
+    .arrow { font-size: 32px; color: #D49A31; align-self: center; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <div class="flex justify-between items-start mb-16">
+      <h2 class="text-[42px]">InsurMinds: <span class="accent italic">Análise Orientada a Evidências</span></h2>
+      <div class="text-[#172A3A] font-bold text-xl uppercase tracking-widest">Solução</div>
+    </div>
+
+    <div class="flex-1 flex gap-4 items-stretch">
+      <div class="step-box">
+        <div class="bg-[#172A3A] text-[#F9F8F4] px-4 py-1 text-sm font-bold uppercase tracking-widest mb-6">Fase 01</div>
+        <h3 class="text-[#172A3A] text-2xl font-bold mb-4">Ingestão & OCR</h3>
+        <p class="text-[#2C3E50] text-lg">Recebimento de PDFs e imagens com extração automática da camada de texto e processamento de visão.</p>
+      </div>
+
+      <div class="arrow">→</div>
+
+      <div class="step-box">
+        <div class="bg-[#D49A31] text-[#172A3A] px-4 py-1 text-sm font-bold uppercase tracking-widest mb-6">Fase 02</div>
+        <h3 class="text-[#172A3A] text-2xl font-bold mb-4">Estruturação Inteligente</h3>
+        <p class="text-[#2C3E50] text-lg">Identificação de limites, franquias, coberturas e exclusões em formato JSON auditável (IA + Regras).</p>
+      </div>
+
+      <div class="arrow">→</div>
+
+      <div class="step-box">
+        <div class="bg-[#172A3A] text-[#F9F8F4] px-4 py-1 text-sm font-bold uppercase tracking-widest mb-6">Fase 03</div>
+        <h3 class="text-[#172A3A] text-2xl font-bold mb-4">Comparação Executiva</h3>
+        <p class="text-[#2C3E50] text-lg">Destaque visual das diferenças de risco e geração de alertas para suporte à tomada de decisão.</p>
+      </div>
+    </div>
+
+    <div class="motif"><div class="line-gold"></div></div>
+    <div class="footer">
+      <span>InsurMinds · Workflow Digital</span>
+      <span class="font-semibold uppercase tracking-widest">Autoria: Curié Edge</span>
+    </div>
+  </div>
+</body>
+</html>

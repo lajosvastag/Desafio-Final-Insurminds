@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    .slide-container { width: 1280px; min-height: 720px; background: #F9F8F4; display: flex; flex-direction: column; padding: 48px; font-family: 'Inter', sans-serif; position: relative; }
+    h2 { font-family: 'Playfair Display', serif; color: #172A3A; }
+    .accent { color: #D49A31; }
+    .motif { position: absolute; bottom: 48px; left: 0; width: 100%; height: 6px; }
+    .line-gold { height: 2px; background: #D49A31; width: 100%; }
+    .footer { position: absolute; bottom: 20px; left: 48px; right: 48px; display: flex; justify-content: space-between; color: #172A3A; font-size: 14px; opacity: 0.6; }
+    .code-box { background: #172A3A; color: #D49A31; padding: 24px; font-family: monospace; font-size: 14px; flex: 1; border-left: 4px solid #D49A31; }
+    .text-box { background: #F0EFE9; color: #172A3A; padding: 24px; flex: 1; border: 1px solid #172A3A; font-size: 15px; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <div class="flex justify-between items-start mb-12">
+      <h2 class="text-[42px]">IA com <span class="accent italic">Transparência & Fallback</span></h2>
+      <div class="text-[#172A3A] font-bold text-xl uppercase tracking-widest">Inteligência</div>
+    </div>
+
+    <div class="flex-1 flex gap-8 items-stretch">
+      <div class="flex-1 flex flex-col">
+        <div class="text-[#172A3A] font-bold text-sm uppercase mb-3">Input: Texto não estruturado</div>
+        <div class="text-box">
+          APÓLICE: Norte D&O 2026<br>
+          SEGURADORA: Atlas Seguros S.A.<br>
+          LIMITE AGREGADO: R$ 10.000.000,00<br>
+          FRANQUIA: R$ 250.000,00<br>
+          ...<br><br>
+          <span class="opacity-50">"Esta apólice cobre custos de defesa e investigações regulatórias, mas exclui fraude e atos dolosos comprovados..."</span>
+        </div>
+      </div>
+
+      <div class="flex flex-col justify-center text-3xl text-[#D49A31]">→</div>
+
+      <div class="flex-1 flex flex-col">
+        <div class="text-[#172A3A] font-bold text-sm uppercase mb-3">Output: JSON Estruturado (IA/Regras)</div>
+        <div class="code-box">
+          {<br>
+          &nbsp;&nbsp;"policy_name": "Norte D&O 2026",<br>
+          &nbsp;&nbsp;"limit": "R$ 10.000.000,00",<br>
+          &nbsp;&nbsp;"retention": "R$ 250.000,00",<br>
+          &nbsp;&nbsp;"coverages": ["Defesa", "Investigações"],<br>
+          &nbsp;&nbsp;"method": "IA Generativa + OCR"<br>
+          }
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-[#F0EFE9] border-l-4 border-[#D49A31] p-6 mt-8">
+      <p class="text-[#172A3A] text-lg font-semibold">Garantia de Funcionamento: O sistema detecta a ausência de credenciais e aciona automaticamente o fallback determinístico baseado em regras auditáveis, garantindo 100% de disponibilidade.</p>
+    </div>
+
+    <div class="motif"><div class="line-gold"></div></div>
+    <div class="footer">
+      <span>JSON Schema · Prompt Engineering · Regex Fallback</span>
+      <span class="font-semibold uppercase tracking-widest">Autoria: Curié Edge</span>
+    </div>
+  </div>
+</body>
+</html>
